@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+@import "~react-custom-scroll/dist/customScroll.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1;
+	color: black;
+	background: white;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+button {
+	font-family: 'Roboto', sans-serif;
+}
+
+.rcs-custom-scrollbar {
+	/* width: 3px; */
+}
+
+.rcs-custom-scroll .rcs-inner-handle {
+	width: 2px;
+	/* height: calc(100% - 12px); */
+	height: 100%;
+	background-color: #41522E;
+	background-repeat: no-repeat no-repeat;
+	background-size: cover;
+}
